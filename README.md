@@ -16,6 +16,8 @@
 
 3) The plugin generates two json files one called circuittree which has the structure of the circuit and the other is circuitmeta which has the metadata.
 
+4) **Run the plugin from example***
+
 
 
 
