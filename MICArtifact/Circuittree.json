@@ -1,0 +1,273 @@
+{
+  "name": "ROOT",
+  "children": {
+    "1": {
+      "name": "FCO",
+      "isMeta": true,
+      "metaType": "FCO",
+      "children": {}
+    },
+    "4": {
+      "name": "Components",
+      "isMeta": true,
+      "metaType": "Components",
+      "children": {}
+    },
+    "C": {
+      "name": "Examples",
+      "isMeta": true,
+      "metaType": "Examples",
+      "children": {
+        "e": {
+          "name": "RLC",
+          "isMeta": false,
+          "metaType": "Circuits",
+          "children": {
+            "6": {
+              "name": "Wires",
+              "isMeta": false,
+              "metaType": "Wires",
+              "src": "P",
+              "dst": "n",
+              "children": {}
+            },
+            "9": {
+              "name": "Resistors",
+              "isMeta": false,
+              "metaType": "Resistors",
+              "Resistor": 1,
+              "children": {
+                "7": {
+                  "name": "n",
+                  "isMeta": false,
+                  "metaType": "Pins",
+                  "Pins": "",
+                  "children": {}
+                },
+                "U": {
+                  "name": "P",
+                  "isMeta": false,
+                  "metaType": "Pins",
+                  "Pins": "",
+                  "children": {}
+                }
+              }
+            },
+            "A": {
+              "name": "Capacitor",
+              "isMeta": false,
+              "metaType": "Capacitor",
+              "Capacitor": 1,
+              "children": {
+                "9": {
+                  "name": "n",
+                  "isMeta": false,
+                  "metaType": "Pins",
+                  "Pins": "",
+                  "children": {}
+                },
+                "b": {
+                  "name": "P",
+                  "isMeta": false,
+                  "metaType": "Pins",
+                  "Pins": "",
+                  "children": {}
+                }
+              }
+            },
+            "H": {
+              "name": "Wires",
+              "isMeta": false,
+              "metaType": "Wires",
+              "src": "P",
+              "dst": "P",
+              "children": {}
+            },
+            "F": {
+              "name": "Wires",
+              "isMeta": false,
+              "metaType": "Wires",
+              "src": "n",
+              "dst": "P",
+              "children": {}
+            },
+            "B": {
+              "name": "Wires",
+              "isMeta": false,
+              "metaType": "Wires",
+              "src": "n",
+              "dst": "n",
+              "children": {}
+            },
+            "P": {
+              "name": "Voltage_Source",
+              "isMeta": false,
+              "metaType": "Voltage_Source",
+              "Voltage_Source": 5,
+              "children": {
+                "6": {
+                  "name": "n",
+                  "isMeta": false,
+                  "metaType": "Pins",
+                  "Pins": "",
+                  "children": {}
+                },
+                "n": {
+                  "name": "P",
+                  "isMeta": false,
+                  "metaType": "Pins",
+                  "Pins": "",
+                  "children": {}
+                }
+              }
+            },
+            "f": {
+              "name": "Inductor",
+              "isMeta": false,
+              "metaType": "Inductor",
+              "Inductor": 1,
+              "children": {
+                "S": {
+                  "name": "P",
+                  "isMeta": false,
+                  "metaType": "Pins",
+                  "Pins": "",
+                  "children": {}
+                },
+                "y": {
+                  "name": "n",
+                  "isMeta": false,
+                  "metaType": "Pins",
+                  "Pins": "",
+                  "children": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "n": {
+      "name": "Resistors",
+      "isMeta": true,
+      "metaType": "Resistors",
+      "Resistor": 1,
+      "children": {
+        "7": {
+          "name": "n",
+          "isMeta": false,
+          "metaType": "Pins",
+          "Pins": "",
+          "children": {}
+        },
+        "U": {
+          "name": "P",
+          "isMeta": false,
+          "metaType": "Pins",
+          "Pins": "",
+          "children": {}
+        }
+      }
+    },
+    "x": {
+      "name": "Capacitor",
+      "isMeta": true,
+      "metaType": "Capacitor",
+      "Capacitor": 1,
+      "children": {
+        "9": {
+          "name": "n",
+          "isMeta": false,
+          "metaType": "Pins",
+          "Pins": "",
+          "children": {}
+        },
+        "b": {
+          "name": "P",
+          "isMeta": false,
+          "metaType": "Pins",
+          "Pins": "",
+          "children": {}
+        }
+      }
+    },
+    "Z": {
+      "name": "Inductor",
+      "isMeta": true,
+      "metaType": "Inductor",
+      "Inductor": 1,
+      "children": {
+        "S": {
+          "name": "P",
+          "isMeta": false,
+          "metaType": "Pins",
+          "Pins": "",
+          "children": {}
+        },
+        "y": {
+          "name": "n",
+          "isMeta": false,
+          "metaType": "Pins",
+          "Pins": "",
+          "children": {}
+        }
+      }
+    },
+    "z": {
+      "name": "Ground",
+      "isMeta": true,
+      "metaType": "Ground",
+      "Ground": 0,
+      "children": {
+        "h": {
+          "name": "Pins",
+          "isMeta": false,
+          "metaType": "Pins",
+          "Pins": "",
+          "children": {}
+        }
+      }
+    },
+    "s": {
+      "name": "Voltage_Source",
+      "isMeta": true,
+      "metaType": "Voltage_Source",
+      "Voltage_Source": 5,
+      "children": {
+        "6": {
+          "name": "n",
+          "isMeta": false,
+          "metaType": "Pins",
+          "Pins": "",
+          "children": {}
+        },
+        "n": {
+          "name": "P",
+          "isMeta": false,
+          "metaType": "Pins",
+          "Pins": "",
+          "children": {}
+        }
+      }
+    },
+    "g": {
+      "name": "Pins",
+      "isMeta": true,
+      "metaType": "Pins",
+      "Pins": "",
+      "children": {}
+    },
+    "P": {
+      "name": "Wires",
+      "isMeta": true,
+      "metaType": "Wires",
+      "children": {}
+    },
+    "c": {
+      "name": "Circuits",
+      "isMeta": true,
+      "metaType": "Circuits",
+      "children": {}
+    }
+  }
+}
