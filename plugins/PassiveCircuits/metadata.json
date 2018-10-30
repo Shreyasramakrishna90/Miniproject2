@@ -1,0 +1,15 @@
+{
+  "id": "PassiveCircuits",
+  "name": "Passive Circuits",
+  "version": "0.1.0",
+  "description": "Plugin which finds and stores the child data and meta data of a node",
+  "icon": {
+    "class": "glyphicon glyphicon-cog",
+    "src": ""
+  },
+  "disableServerSideExecution": false,
+  "disableBrowserSideExecution": false,
+  "dependencies": [],
+  "writeAccessRequired": false,
+  "configStructure": []
+}
